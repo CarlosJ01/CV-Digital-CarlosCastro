@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -8,4 +9,9 @@
     --color-gray-2: #A9A9A9;
     --color-red-1: #DC5C5C;
     --color-red-2: #B22222;
+}
+
+@theme {
+    --font-primary: "Source Code Pro", monospace;
+    --font-secondary: "Fira Code", monospace;
 }
